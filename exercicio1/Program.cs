@@ -1,27 +1,34 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-class Program
+class ValidadorDeSenha
 {
     static void Main()
     {
-        Console.Write("Digite uma senha: ");
-        string senha = Console.ReadLine();
+        string senha;
+        string resultado;
 
-        bool tamanhoMinimo = senha.Length >= 8;
-        bool temMaiuscula = Regex.IsMatch(senha, "[A-Z]");
-        bool temNumero = Regex.IsMatch(senha, "[0-9]");
-        bool temEspecial = Regex.IsMatch(senha, "[!@#\$%\^&\*]");
-
-        if (tamanhoMinimo && temMaiuscula && temNumero && temEspecial)
-            Console.WriteLine("Senha forte.");
-        else
+        do
         {
-            Console.WriteLine("Senha fraca. Requisitos:");
-            if (!tamanhoMinimo) Console.WriteLine("- Mínimo de 8 caracteres");
-            if (!temMaiuscula) Console.WriteLine("- Pelo menos uma letra maiúscula");
-            if (!temNumero) Console.WriteLine("- Pelo menos um número");
-            if (!temEspecial) Console.WriteLine("- Pelo menos um caractere especial (!, @, #, etc)");
+            Console.Write("Digite sua senha para validar: ");
+            senha = Console.ReadLine();
+            resultado = ValidarSenha(senha);
+            Console.WriteLine(resultado);
         }
+        while (resultado != "Senha forte! ✅");
+    }
+
+    static string ValidarSenha(string senha)
+    {
+        if (senha.Length < 8)
+            return "A senha deve ter pelo menos 8 caracteres.";
+        if (!Regex.IsMatch(senha, "[A-Z]"))
+            return "A senha deve conter pelo menos uma letra maiúscula.";
+        if (!Regex.IsMatch(senha, "[0-9]"))
+            return "A senha deve conter pelo menos um número.";
+        if (!Regex.IsMatch(senha, "[!@#$%^&*()\\-_=+]"))
+            return "A senha deve conter pelo menos um caractere especial (!@#$%^&*()-_+=).";
+
+        return "Senha forte! ✅";
     }
 }

@@ -10,7 +10,7 @@ class Program
 
         // Remove espaços e converte para minúsculo
         string textoLimpo = new string(input
-            .Where(c => !char.IsWhiteSpace(c)) // remove espaços
+            .Where(c => !char.IsWhiteSpace(c))
             .ToArray())
             .ToLower();
 

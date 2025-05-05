@@ -1,0 +1,15 @@
+C:\Users\JOAOVICTORCORREADELI\Documents\GitHub\Atividades\exercicio10\bin\Debug\net8.0\exercicio10.exe
+C:\Users\JOAOVICTORCORREADELI\Documents\GitHub\Atividades\exercicio10\bin\Debug\net8.0\exercicio10.deps.json
+C:\Users\JOAOVICTORCORREADELI\Documents\GitHub\Atividades\exercicio10\bin\Debug\net8.0\exercicio10.runtimeconfig.json
+C:\Users\JOAOVICTORCORREADELI\Documents\GitHub\Atividades\exercicio10\bin\Debug\net8.0\exercicio10.dll
+C:\Users\JOAOVICTORCORREADELI\Documents\GitHub\Atividades\exercicio10\bin\Debug\net8.0\exercicio10.pdb
+C:\Users\JOAOVICTORCORREADELI\Documents\GitHub\Atividades\exercicio10\obj\Debug\net8.0\exercicio10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JOAOVICTORCORREADELI\Documents\GitHub\Atividades\exercicio10\obj\Debug\net8.0\exercicio10.AssemblyInfoInputs.cache
+C:\Users\JOAOVICTORCORREADELI\Documents\GitHub\Atividades\exercicio10\obj\Debug\net8.0\exercicio10.AssemblyInfo.cs
+C:\Users\JOAOVICTORCORREADELI\Documents\GitHub\Atividades\exercicio10\obj\Debug\net8.0\exercicio10.csproj.CoreCompileInputs.cache
+C:\Users\JOAOVICTORCORREADELI\Documents\GitHub\Atividades\exercicio10\obj\Debug\net8.0\exercicio10.sourcelink.json
+C:\Users\JOAOVICTORCORREADELI\Documents\GitHub\Atividades\exercicio10\obj\Debug\net8.0\exercicio10.dll
+C:\Users\JOAOVICTORCORREADELI\Documents\GitHub\Atividades\exercicio10\obj\Debug\net8.0\refint\exercicio10.dll
+C:\Users\JOAOVICTORCORREADELI\Documents\GitHub\Atividades\exercicio10\obj\Debug\net8.0\exercicio10.pdb
+C:\Users\JOAOVICTORCORREADELI\Documents\GitHub\Atividades\exercicio10\obj\Debug\net8.0\exercicio10.genruntimeconfig.cache
+C:\Users\JOAOVICTORCORREADELI\Documents\GitHub\Atividades\exercicio10\obj\Debug\net8.0\ref\exercicio10.dll
